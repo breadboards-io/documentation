@@ -1,5 +1,6 @@
 # Welcome to Breadboard!
 ![Welcome image](/assets/Instructions_weather.png)
+<img width="7680" height="4320" alt="Get started_1" src="https://github.com/user-attachments/assets/626ace1a-b7b5-429c-9316-b8356e5d49a3" />
 
 Welcome on board! We’re so glad you’re here 🤗
 
