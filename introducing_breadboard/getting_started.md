@@ -1,4 +1,6 @@
 # Welcome to Breadboard!
+![Welcome image](/assets/Instructions_weather.png)
+
 Welcome on board! We’re so glad you’re here 🤗
 
 Breadboard is an open canvas-based app builder designed to help you build powerful applications without getting tangled in complex code. Think of it as a digital canvas where you "wire" your ideas together. By visually connecting your user interface elements to the logic behind them, Breadboard makes the development process feel crystal clear, easier to understand and control and — dare we say — fun!
