@@ -3,28 +3,13 @@
 ### Use the Basic UI components
 In case you want to start from scratch or build simple concept apps or skeleton apps, you can start with the  basic components provided in Breadboard. To add a basic UI component to a board, click on the UI component menu (Right end) on the dock interface at the bottom of the canvas. You can also use this menu to insert your own UI components as instances. Check the components & instances section to learn more.
 
-
-
 <video src="https://cdn.breadboards.app/assets/documentation/02_Import UI assets_5.mp4" controls="" autoplay=""></video>
-The best way to import the entire frame is to use the Figma plugin named “Figma to Code” (Our own plugin is coming soon!) The biggest advantage of using this plugin is that you can make your screen design responsive.
 
 
-<video src="https://github.com/user-attachments/assets/50d38e3a-c81e-4601-930f-e78a416b153a" controls="" autoplay=""></video>
-While the plugin is running, click on a UI component or an artboard you want to import, select HTML and hit ‘Copy’. 
-*[Important Note] To import vector visuals properly, do not forget to opt-in Embed Vectors!*
-
-
-
+### Use the AI agent
 <video src="https://cdn.breadboards.app/assets/documentation/02_Import UI assets_6.mp4" controls="" autoplay=""></video>
-In Breadboard, hit Cmd+V (Mac) or Ctrl+V (Windows) to paste your Figma design. You can use the Style Editor to organize or modify your design. Learn more about the style editor.
 
-
-### Right-click a UI asset and select “Copy as SVG”
-<video src="https://github.com/user-attachments/assets/87bf9103-a1b1-4e08-9b9c-e4190a811d5a" controls="" autoplay=""></video>
-
-In case you want to import a single UI asset or a UI asset is imported broken from the plugin, you can copy the individual UI with the “Copy as SVG” option. To do this, simply right-click the UI asset and select Copy/Paste as > Copy as SVG.
-
-*[Important Note] Elements like texts or any UI elements that need to adapt to the content shouldn't be exported as SVG.*
+Or, you can also use our AI agent to create high-fidelity UIs without using the design tool. The AI agent can be toggled from the dock UI and requires the personal Gemini API key to start. To get the API key, visit Google AI Studio and create. Breadboard doesn’t charge on the AI agent usage nor storing your API key information.
 
 
 
