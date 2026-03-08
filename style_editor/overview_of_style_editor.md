@@ -32,7 +32,7 @@ Elements that are "Out-of-Flow" are removed from the standard layout. They do no
 - <img width="32" height="32" src="https://cdn.breadboards.app/assets/documentation/03_Style editor_3_5.png"> **Fixed**: The element is locked to a specific **X(Left)** and **Y(Top)** coordinate on the screen and remains in that spot even when the user scrolls.
 
 
-### Summary Table for Visualization
+#### Summary Table for Visualization
 | **Position** | **Removed from Flow?** | **Reference Point (Coordinate Origin)**         | **Affects Surroundings?** |  
 |--------------|------------------------|-------------------------------------------------|---------------------------|
 | Static       | No                     | Preceding elements (Document Flow)              | Yes (Pushes others)       |   
