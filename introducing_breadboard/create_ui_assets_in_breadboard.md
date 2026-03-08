@@ -5,7 +5,7 @@ In case you want to start from scratch or build simple concept apps or skeleton 
 
 
 
-<video src="https://github.com/user-attachments/assets/50d38e3a-c81e-4601-930f-e78a416b153a" controls="" autoplay=""></video>
+<video src="https://cdn.breadboards.app/assets/documentation/02_Import UI assets_5.mp4" controls="" autoplay=""></video>
 The best way to import the entire frame is to use the Figma plugin named “Figma to Code” (Our own plugin is coming soon!) The biggest advantage of using this plugin is that you can make your screen design responsive.
 
 
@@ -15,7 +15,7 @@ While the plugin is running, click on a UI component or an artboard you want to 
 
 
 
-<video src="https://github.com/user-attachments/assets/d2fd736f-c0f7-4ae1-a253-5b0cdd4a6f12" controls="" autoplay=""></video>
+<video src="https://cdn.breadboards.app/assets/documentation/02_Import UI assets_6.mp4" controls="" autoplay=""></video>
 In Breadboard, hit Cmd+V (Mac) or Ctrl+V (Windows) to paste your Figma design. You can use the Style Editor to organize or modify your design. Learn more about the style editor.
 
 
