@@ -24,3 +24,21 @@ In Breadboard, Components and Instances represent the relationship between a Mai
 | **Purpose**      | To define the design and rules             | To use the design in context                   |
 | **Editing**      | Changes update **every instance** globally | Changes affect **only that specific instance** |
 | **Relationship** | The Parent / Blueprint                     | The Child / Implementation                     |
+
+
+### How to create components & instances
+<video src="https://cdn.breadboards.app/assets/documentation/04_Components & instances_2.mp4">
+To create a master component simply click on a target element and click on the component icon from the contextual menu on top of it. Once the component is created, it is created on canvas, wrapped in a purple box.
+
+<img src="https://cdn.breadboards.app/assets/documentation/04_Components & instances_3.png">
+You can also add more variants of components by clicking on + under the “variants” badge.
+
+<video src="https://cdn.breadboards.app/assets/documentation/04_Components & instances_4.mp4">
+<video src="https://cdn.breadboards.app/assets/documentation/04_Components & instances_5.mp4">
+After creating a component and its variant(s), simply copy the variant from the component group and paste it to the desirable location. You can also use the dock UI > Container > Custom component menu to add an instance of the component to the screen design. 
+
+
+### Connect properties to component
+<img src="https://cdn.breadboards.app/assets/documentation/04_Components & instances_6.png">
+
+To combine properties that you created to a certain component, click on the target component and tap “combine properties”. Here, you can tie properties to its sub UI elements. To learn more about properties, check **Create & Combine Properties** 
