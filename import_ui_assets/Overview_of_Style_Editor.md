@@ -9,20 +9,25 @@ To import your designs, use the Figma to Code plugin. This ensures that your Fig
 
 
 ### Attributes
-<img src="https://cdn.breadboards.app/assets/documentation/02_Import UI assets_2.mp4" controls="" autoplay=""></video>
-While the plugin is running, click on a UI component or an artboard you want to import, select HTML and hit ‘Copy’. 
-*[Important Note] To import vector visuals properly, do not forget to opt-in Embed Vectors!*
+<img src="https://cdn.breadboards.app/assets/documentation/03_Style editor_1.png">
+Selecting a UI element displays its properties at the top of the Style Editor. Here, you can rename the element or change its type – for example, switching an element from a Container to a Text or Input field –.
 
 
+### Positions
+<img src="https://cdn.breadboards.app/assets/documentation/03_Style editor_2.png">
+The **Position** property determines whether an element participates in the screen's **Document Flow** — the system that automatically arranges elements—or ignores it to be placed independently. Breadboard uses CSS position rules to ensure your design remains fully responsive, allowing you to use **X (Left)** and **Y (Top)** coordinates for precise placement.
 
-<video src="https://cdn.breadboards.app/assets/documentation/02_Import UI assets_3.mp4" controls="" autoplay=""></video>
-In Breadboard, hit Cmd+V (Mac) or Ctrl+V (Windows) to paste your Figma design. You can use the Style Editor to organize or modify your design. Learn more about the style editor.
+
+#### In-Flow
+Elements that are "In-Flow" occupy physical space and influence the position of the elements around them.
+
+- **Static**: The default setting. Elements follow the natural order of the layout and cannot be manually shifted.
+- **Relative**: The element stays in the normal flow, but you can use **X (Left)** and **Y (Top)** to shift its appearance without affecting the space it originally occupied.
+- **Sticky**: The element behaves like a Static element until it reaches a specific scroll point, where it then "sticks" to its position.
 
 
-### Right-click a UI asset and select “Copy as SVG”
-<video src="https://cdn.breadboards.app/assets/documentation/02_Import UI assets_4.mp4" controls="" autoplay=""></video>
+#### Out-of-Flow
+Elements that are "In-Flow" occupy physical space and influence the position of the elements around them.
 
-In case you want to import a single UI asset or a UI asset is imported broken from the plugin, you can copy the individual UI with the “Copy as SVG” option. To do this, simply right-click the UI asset and select Copy/Paste as > Copy as SVG.
-
-*[Important Note] Elements like texts or any UI elements that need to adapt to the content shouldn't be exported as SVG.*
-
+- **Absolute**: The element is placed at a specific **X (Left)** and **Y (Top)** position relative to its parent container.
+- **Fixed**: The element is locked to a specific **X (Left)** and **Y (Top)** coordinate on the screen and remains in that spot even when the user scrolls.
