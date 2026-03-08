@@ -38,7 +38,7 @@ These instructions help you clean, cut, and combine pieces of text.
 |------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | **Combine Text** [Text A] and [Text B] with [Separator]        | Joins two pieces of text together. If you provide a separator (like a space or a comma), it will be placed between them.              |
 | **Split Text** [Text] by [Separator]                           | Breaks a long string into a list of items wherever it finds the separator (e.g., splitting a sentence by " " to get a list of words). |
-| **Slice Text** [Text] from [Start] to [End]                    | Cuts out a specific portion of text. **Pro-Tip**: Use negative numbers to count backward from the end of the text.                        |
+| **Slice Text** [Text] from [Start] to [End]                    | Cuts out a specific portion of text. **💡Pro-Tip**: Use negative numbers to count backward from the end of the text.                        |
 | **Change Case** [Text] to [lowercase / UPPERCASE / Title Case] | Automatically changes the capitalization of your text.                                                                                |
 | **Replace Text** In [Text], replace [Find] with [Replace]      | Swaps out specific words or characters for something else.                                                                            |
 | **Match Text** In [Text], match [Pattern]                      | Searches for a specific pattern (Regex) within the text and returns the matches.                                                      |
@@ -46,7 +46,7 @@ These instructions help you clean, cut, and combine pieces of text.
 
 
 
-### Pro-Tip: Chaining Operations
+#### 💡Pro-Tip: Chaining Operations
 Because of the it keyword, you can chain these together for powerful results:
 
 1. **Get Query Param** user_name
