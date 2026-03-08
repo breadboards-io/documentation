@@ -32,3 +32,12 @@ Elements that are "In-Flow" occupy physical space and influence the position of 
 - <img width="32" height="32" src="https://cdn.breadboards.app/assets/documentation/03_Style editor_3_4.png"> **Absolute**: The element is placed at a specific **X (Left)** and **Y (Top)** position relative to its parent container.
 - <img width="32" height="32" src="https://cdn.breadboards.app/assets/documentation/03_Style editor_3_5.png"> **Fixed**: The element is locked to a specific **X (Left)** and **Y (Top)** coordinate on the screen and remains in that spot even when the user scrolls.
 
+
+#### Summary Table for Visualization
+| **Position** | **Removed from Flow?** | **Reference Point (Coordinate Origin)**         | **Affects Surroundings?** |  
+|--------------|------------------------|-------------------------------------------------|---------------------------|
+| Static       | No                     | Preceding elements (Document Flow)              | Yes (Pushes others)       |   
+| Relative     | No                     | Itself (Original Static Location)               | No (Space reserved)       |   
+| Absolute     | Yes                    | Nearest Non-Static Ancestor                     | No (Others ignore it)     |   
+| Fixed        | Yes                    | Viewport (Browser Window)                       | No (Others ignore it)     |   
+| Sticky       | No                     | Itself -> then Viewport (constrained by Parent) | Yes (Space reserved)      |   
