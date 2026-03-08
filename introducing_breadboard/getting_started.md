@@ -1,5 +1,5 @@
 # Welcome to Breadboard!
-<img width="7680" height="4320" alt="Get started_1" src="https://drive.google.com/uc?export=download&id=1JGI5SgqnEDtiIkOnK1rDNuz8uwXSXWiS" />
+<img alt="Getting Started" src="https://cdn.breadboards.app/assets/documentation/00_Get started_1.png" />
 
 Welcome on board! We’re so glad you’re here 🤗
 
