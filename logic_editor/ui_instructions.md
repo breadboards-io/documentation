@@ -9,7 +9,7 @@ UI instructions, marked in **red** within the Logic Editor, allow you to control
 - *style: Refers to a style property (like *background-color or *opacity).
 - target: The element you are affecting. You can use
   - Specific Names: Prefixed with a # – e.g., #sidebar or #main-button –.
-  - Selectors: A type of element – e.g., <input /> or <my-component> –.
+  - Selectors: A type of element – e.g., `<input />` or `<my-component>` –.
 - me: Refers to the exact element that triggered the logic – e.g., the button that was clicked –.
 
 
