@@ -13,10 +13,10 @@ Properties transform a static element into a functional, dynamic UI component. T
 
 
 ### How to create and combine properties
-<video src="https://cdn.breadboards.app/assets/documentation/05_Create & combine properties_1.mp4" control=" " autoplay=" "></video>
+<video src="https://cdn.breadboards.app/assets/documentation/05_Create & combine properties_1.mp4" controls="" autoplay=""></video>
 To create properties to a component, simply select a component and click on “Add property”. 
 
-<video src="https://cdn.breadboards.app/assets/documentation/05_Create & combine properties_2.mp4" control=" " autoplay=" "></video>
+<video src="https://cdn.breadboards.app/assets/documentation/05_Create & combine properties_2.mp4" controls="" autoplay=""></video>
 And then, select sub UI elements in the component and tap ‘connect property’ to assign properties.
 
 <img src="https://cdn.breadboards.app/assets/documentation/05_Create & combine properties_3.png">
