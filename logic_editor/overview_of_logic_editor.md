@@ -10,6 +10,6 @@ To learn how to mix and match these commands to build features, visit our Cookbo
 
 ### How to add logic blocks
 
-<video src="https://cdn.breadboards.app/assets/documentation/06_Logic editor.mp4" controls="" autoplay=""></video>
+<video src="https://cdn.breadboards.app/assets/documentation/06_Logic%20editor.mp4" controls="" autoplay=""></video>
 
 To add logic to a specific element, click on the target and select “Add trigger” to set the type of an event you want to trigger. For example, if you want to trigger features by starting the app, select ‘On start’ and add conditions. You can learn more about event listeners below.
