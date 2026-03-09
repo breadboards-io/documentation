@@ -9,7 +9,7 @@ Data Instructions are the "memory" of your project. They allow you to store info
 - **Dictionaries**: **Labeled Folders**. A collection of data where every piece of information is mapped to a unique label (key). E.g. `{ "title": "Neuromancer", "author": "William Gibson" }`
 
 
-####💡**Pro-Tip**
+#### 💡Pro-Tip
 When you use the **Fetch** instruction to get data from an API, the result is almost always a **Dictionary** (for a single item) or a List of **Dictionaries** (for a collection of items, like a product catalog).
 
 
