@@ -12,6 +12,7 @@ The best way to import the entire frame is to use the Figma plugin named “Figm
 
 <video src="https://cdn.breadboards.app/assets/documentation/02_Import UI assets_2.mp4" controls="" autoplay=""></video>
 While the plugin is running, click on a UI component or an artboard you want to import, select HTML and hit ‘Copy’. 
+
 *[Important Note] To import vector visuals properly, do not forget to opt-in Embed Vectors!*
 
 
