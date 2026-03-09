@@ -6,7 +6,7 @@ UI instructions, marked in **red** within the Logic Editor, allow you to control
 ### Syntax Symbols
 
 - `@attribute`: Refers to a setting or state of an element (like `@disabled`, `@src`, or `@value`).
-- `*style`: Refers to a style property (like *background-color or *opacity).
+- `*style`: Refers to a style property (like `*background-color` or `*opacity`).
 - `target`: The element you are affecting. You can use
   - Specific Names: Prefixed with a `#` – e.g., `#sidebar` or `#main-button` –.
   - Selectors: A type of element – e.g., `<input />` or `<my-component>` –.
