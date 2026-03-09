@@ -10,11 +10,13 @@ To import your designs, use the Figma to Code plugin. This ensures that your Fig
 
 ### Attributes
 <img src="https://cdn.breadboards.app/assets/documentation/03_Style editor_1.png">
+
 Selecting a UI element displays its properties at the top of the Style Editor. Here, you can rename the element or change its type – for example, switching an element from a Container to a Text or Input field –.
 
 
 ### Positions
 <img src="https://cdn.breadboards.app/assets/documentation/03_Style editor_2.png">
+
 The **Position** property determins whether an element participates in the screen's **Document Flow** - the system that automatically arranges elements— or ignores it to be placed independently. Breadboard uses CSS position rules to ensure your design remains fully responsive, allowing you to use **X(Left) and Y(Top)** coordinates for precise placement.
 
 #### In-Flow
