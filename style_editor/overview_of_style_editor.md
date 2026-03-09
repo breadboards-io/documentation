@@ -7,18 +7,22 @@ The Style Editor is located on the right side panel and is used to style UI elem
 #### 💡 Pro-Tip for Figma Users
 To import your designs, use the Figma to Code plugin. This ensures that your Figma Auto-Layout settings—including spacing, buttons, and containers—are transferred exactly as designed and maintain the same behavior in Breadboard.
 
-
+<br>
+<br>
 ### Attributes
 <img src="https://cdn.breadboards.app/assets/documentation/03_Style editor_1.png">
 
 Selecting a UI element displays its properties at the top of the Style Editor. Here, you can rename the element or change its type – for example, switching an element from a Container to a Text or Input field –.
 
-
+<br>
+<br>
 ### Positions
 <img src="https://cdn.breadboards.app/assets/documentation/03_Style editor_2.png">
 
 The **Position** property determins whether an element participates in the screen's **Document Flow** - the system that automatically arranges elements— or ignores it to be placed independently. Breadboard uses CSS position rules to ensure your design remains fully responsive, allowing you to use **X(Left) and Y(Top)** coordinates for precise placement.
 
+<br>
+<br>
 #### In-Flow
 Elements that are "In-Flow" occupy physical space and influence the position of the elements around them.
 
@@ -28,7 +32,8 @@ Elements that are "In-Flow" occupy physical space and influence the position of 
   <li><img width="32" height="32" src="https://cdn.breadboards.app/assets/documentation/03_Style editor_3_3.png"><p><b>Sticky</b>: The element behaves like a Static element until it reaches a specific scroll point, where it then "sticks" to its position.</p></li>
 </ul>
 
-
+<br>
+<br>
 #### Out-of-Flow
 Elements that are "Out-of-Flow" are removed from the standard layout. They do not take up space, meaning other elements behave as if they aren't there, which allows for overlapping content.
 
@@ -37,7 +42,8 @@ Elements that are "Out-of-Flow" are removed from the standard layout. They do no
   <li><img width="32" height="32" src="https://cdn.breadboards.app/assets/documentation/03_Style editor_3_5.png"><p><b>Fixed</b>: The element is locked to a specific <b>X(Left)</b> and <b>Y(Top)</b> coordinate on the screen and remains in that spot even when the user scrolls.</p></li>
 </ul>
 
-
+<br>
+<br>
 #### Summary Table for Visualization
 | **Position** | **Removed from Flow?** | **Reference Point (Coordinate Origin)**         | **Affects Surroundings?** |  
 |--------------|------------------------|-------------------------------------------------|---------------------------|
@@ -47,7 +53,8 @@ Elements that are "Out-of-Flow" are removed from the standard layout. They do no
 | Fixed        | Yes                    | Viewport (Browser Window)                       | No (Others ignore it)     |   
 | Sticky       | No                     | Itself -> then Viewport (constrained by Parent) | Yes (Space reserved)      |   
 
-
+<br>
+<br>
 ### Auto-layout (= ‘flex’ in CSS)
 <img src="https://cdn.breadboards.app/assets/documentation/03_Style editor_4.png">
 
@@ -62,7 +69,8 @@ It calculates the layout based on three factors:
   
 Auto layout removes the need for manual pixel-pushing, ensuring designs stay responsive when text changes or items are added/removed.
 
-
+<br>
+<br>
 ### Appearance
 With the appearance menu, you can tweak a wide variety of visual attributes of the selected UI elements including: 
 
