@@ -24,18 +24,22 @@ The canvas is the main space where you display all layers and containers and let
 
 At the bottom of the canvas you can find the dock UI that provides the main tool options. Here you can find:
 
-
-- <img width="32" height="32" src="https://cdn.breadboards.app/assets/documentation/01_Interface_4_2.png"><p>**Design mode**: The default mode for editing UIs and logics</p>
-- <img width="32" height="32" src="https://cdn.breadboards.app/assets/documentation/01_Interface_4_1.png"><p>**Run mode**: Previewing the app you made. If your app has multiple screens, the app will start from the ‘Entry point’ and flow to other pages by your logic automatically. (Note: Editing UI/logic is not doable in this mode.)</p>  
-- <img width="32" height="32" src="https://cdn.breadboards.app/assets/documentation/01_Interface_4_3.png"><p>**Add screen**: Add more screen to the canvas. The first added screen is set as ‘Entry point’ by default, but you can change the entry point after adding a new screen.</p>
-- <img width="32" height="32" src="https://cdn.breadboards.app/assets/documentation/01_Interface_4_4.png"><p>**Add element**: Add UI component presets or custom UI component that you created to the screen. Here you can find:</p>
-  - Container: A structural building block that can be fully styled using the style editor and used to group or hold other elements inside it.
-  - Text: A normal text box
-  - Input: A variety of input forms used to enter data. Interacting with it can trigger system UIs like device keyboard, date picker, etc.
-  - Button: An interactive, clickable element
-  - Media: A placeholder for images/videos/audios
-  - Component: Custom, reusable UI components that you’ve created on canvas
-- <img width="32" height="32" src="https://cdn.breadboards.app/assets/documentation/01_Interface_4_5.png">  **AI agent**: Toggle Rubber Duck AI agent  
+<ul class="list--image">
+  <li><img width="32" height="32" src="https://cdn.breadboards.app/assets/documentation/01_Interface_4_2.png"><p><b>Design mode</b>: The default mode for editing UIs and logics</p></li>
+  <li><img width="32" height="32" src="https://cdn.breadboards.app/assets/documentation/01_Interface_4_1.png"><p><b>Run mode</b>: Previewing the app you made. If your app has multiple screens, the app will start from the ‘Entry point’ and flow to other pages by your logic automatically. (Note: Editing UI/logic is not doable in this mode.)</p></li>
+  <li><img width="32" height="32" src="https://cdn.breadboards.app/assets/documentation/01_Interface_4_3.png"><p><b>Add screen</b>: Add more screen to the canvas. The first added screen is set as ‘Entry point’ by default, but you can change the entry point after adding a new screen.</p></li>
+  <li><img width="32" height="32" src="https://cdn.breadboards.app/assets/documentation/01_Interface_4_4.png"><p><b>Add element</b>: Add UI component presets or custom UI component that you created to the screen. Here you can find:</p>
+    <ul>
+      <li>Container: A structural building block that can be fully styled using the style editor and used to group or hold other elements inside it.</li>
+      <li>Text: A normal text box</li>
+      <li>Input: A variety of input forms used to enter data. Interacting with it can trigger system UIs like device keyboard, date picker, etc.</li>
+      <li>Button: An interactive, clickable element</li>
+      <li>Media: A placeholder for images/videos/audios</li>
+      <li>Component: Custom, reusable UI components that you’ve created on canvas</li>
+    </ul>
+  </li>
+  <li><img width="32" height="32" src="https://cdn.breadboards.app/assets/documentation/01_Interface_4_5.png">  <b>AI agent</b>: Toggle Rubber Duck AI agent</li>
+</ul>
 
 ### Logic panel
 <img src="https://cdn.breadboards.app/assets/documentation/01_Interface_5.png">
