@@ -7,10 +7,11 @@ You can think of a listener as a digital sensor attached to an element. It doesn
 
 Here’s the list of the event listeners available in Breadboard:
 
-| On | start       | An event is triggered upon starting an app   |
-|----|-------------|----------------------------------------------|
-|    | keyboard    | An event is triggered by pressing keyboard   |
-|    | mouse       | An event is triggered by mouse movements     |
-|    | form        | An event is triggered by inputting in a form |
-|    | drag & drop | An event is triggered by drag & drop         |
-|    | custom      | An event is triggered by a custom definition |
+| On | Event           | Description                                  |
+|----|-----------------|----------------------------------------------|
+|    | **start**       | An event is triggered upon starting an app   |
+|    | **keyboard**    | An event is triggered by pressing keyboard   |
+|    | **mouse**       | An event is triggered by mouse movements     |
+|    | **form**        | An event is triggered by inputting in a form |
+|    | **drag & drop** | An event is triggered by drag & drop         |
+|    | **custom**      | An event is triggered by a custom definition |
