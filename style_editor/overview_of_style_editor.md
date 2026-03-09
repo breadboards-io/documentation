@@ -21,9 +21,9 @@ The **Position** property determins whether an element participates in the scree
 Elements that are "In-Flow" occupy physical space and influence the position of the elements around them.
 
 <ul class="list--image">
-  <li><img width="32" height="32" src="https://cdn.breadboards.app/assets/documentation/03_Style editor_3_1.png"><p>**Static**: The default setting. Elements follow the natural order of the layout and cannot be manually shifted.</p></li>
-  <li><img width="32" height="32" src="https://cdn.breadboards.app/assets/documentation/03_Style editor_3_2.png"><p>**Relative**: The element stays in the normal flow, but you can use **X (Left)** and **Y (Top)** to shift its appearance without affecting the space it originally occupied.</p></li>
-  <li><img width="32" height="32" src="https://cdn.breadboards.app/assets/documentation/03_Style editor_3_3.png"><p>**Sticky**: The element behaves like a Static element until it reaches a specific scroll point, where it then "sticks" to its position.</p></li>
+  <li><img width="32" height="32" src="https://cdn.breadboards.app/assets/documentation/03_Style editor_3_1.png"><p><b>Static</b>: The default setting. Elements follow the natural order of the layout and cannot be manually shifted.</p></li>
+  <li><img width="32" height="32" src="https://cdn.breadboards.app/assets/documentation/03_Style editor_3_2.png"><p><b>Relative</b>: The element stays in the normal flow, but you can use **X (Left)** and **Y (Top)** to shift its appearance without affecting the space it originally occupied.</p></li>
+  <li><img width="32" height="32" src="https://cdn.breadboards.app/assets/documentation/03_Style editor_3_3.png"><p><b>Sticky</b>: The element behaves like a Static element until it reaches a specific scroll point, where it then "sticks" to its position.</p></li>
 </ul>
 
 
@@ -31,8 +31,8 @@ Elements that are "In-Flow" occupy physical space and influence the position of 
 Elements that are "Out-of-Flow" are removed from the standard layout. They do not take up space, meaning other elements behave as if they aren't there, which allows for overlapping content.
 
 <ul class="list--image">
-  <li><img width="32" height="32" src="https://cdn.breadboards.app/assets/documentation/03_Style editor_3_4.png"><p>**Absolute**: The element is placed at a specific **X(Left)** and **Y(Top)** position relative to its parent container.</p></li>
-  <li><img width="32" height="32" src="https://cdn.breadboards.app/assets/documentation/03_Style editor_3_5.png"><p>**Fixed**: The element is locked to a specific **X(Left)** and **Y(Top)** coordinate on the screen and remains in that spot even when the user scrolls.</p></li>
+  <li><img width="32" height="32" src="https://cdn.breadboards.app/assets/documentation/03_Style editor_3_4.png"><p><b>Absolute</b>: The element is placed at a specific **X(Left)** and **Y(Top)** position relative to its parent container.</p></li>
+  <li><img width="32" height="32" src="https://cdn.breadboards.app/assets/documentation/03_Style editor_3_5.png"><p><b>Fixed</b>: The element is locked to a specific **X(Left)** and **Y(Top)** coordinate on the screen and remains in that spot even when the user scrolls.</p></li>
 </ul>
 
 
