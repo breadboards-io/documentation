@@ -56,9 +56,9 @@ Auto Layout is a dynamic property that allows containers to automatically resize
 Instead of manually placing elements at fixed coordinates (like position: absolute), Auto Layout establishes a strict relationship between the parent container and its child items so it’s a lot easier for users to create a “format” of UI components or screen design efficiently.
 
 It calculates the layout based on three factors:
-- Direction: Item can be stacked horizontally (Row) or vertically (Column)
-- Spacing: How much gap is between items and how much padding surrounds them?
-- Sizing: You can determine the dimension either absolutely (ex. 360px) or relatively (ex. 100vw)
+- **Direction**: Item can be stacked horizontally (Row) or vertically (Column)
+- **Spacing**: How much gap is between items and how much padding surrounds them?
+- **Sizing**: You can determine the dimension either absolutely (ex. 360px) or relatively (ex. 100vw)
   
 Auto layout removes the need for manual pixel-pushing, ensuring designs stay responsive when text changes or items are added/removed.
 
