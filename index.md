@@ -1,9 +1,7 @@
-### Cookbook
-[Cookbook](/cookbook.md)
-
 ### Introducing Breadboard
 [Getting Started](/introducing_breadboard/getting_started.md)
 [Interface](/introducing_breadboard/interface.md)
+[Cookbook](/cookbook.md)
 
 ### Import UI assets
 [From Figma](/import_ui_assets/from_figma.md)
