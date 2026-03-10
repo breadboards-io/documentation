@@ -6,7 +6,7 @@ Breadboard apps are built using Elements and Components. Elements are the basic 
 To add these to your project, you select the element you want from the Dock at the bottom of the screen. Once selected, simply click anywhere on the canvas to place it.
 Nesting happens automatically: if you click on an existing element on your canvas, the new one will be placed inside it. This creates a parent-child relationship, allowing you to build complex layouts by layering elements within one another.
 
-<img src="https://cdn.breadboards.app/assets/documentation/cookbook_2.png">
+<img src="https://cdn.breadboards.app/assets/documentation/cookbook_creating_elements.png">
 
 ## Responding to Events
 You make your app interactive using **Triggers**. A trigger waits for a specific user action, like a click, a hover, or a keystroke, and then runs your instructions.
@@ -17,7 +17,7 @@ trigger: on click
   Hide me
 ```
 
-<img src="https://cdn.breadboards.app/assets/documentation/cookbook_3.png">
+<img src="https://cdn.breadboards.app/assets/documentation/cookbook_responsing_to_events.png">
 
 ## Adding Styles and Attributes
 You can change how elements look and behave using the **Style Editor** or through **Logic Instructions**.
@@ -30,7 +30,7 @@ In your logic, you can update these instantly to make your UI react to the user:
 Add @disabled to me
 Change Hero Background Color to "blue"
 ```
-<img src="https://cdn.breadboards.app/assets/documentation/cookbook_1.png">
+<img src="https://cdn.breadboards.app/assets/documentation/cookbook_adding_styles_and_attributes.png">
 
 ## Displaying Data
 To show information to the user, you use the **Change** instruction. Breadboard allows you to "inject" variables or the results of calculations directly into your UI.
@@ -42,7 +42,7 @@ You can also combine text and variables using the it keyword (which represents t
 Combine Text in “Hello” and user_name with the value “ ”
 Change my Text to Combined Text
 ```
-<img src="https://cdn.breadboards.app/assets/documentation/cookbook_5.png">
+<img src="https://cdn.breadboards.app/assets/documentation/cookbook_displaying_data.png">
 
 ## Conditional Logic
 In Breadboard, you don't need complex code for decisions. You use the If instruction to create rules for your app.
@@ -54,7 +54,7 @@ Else
 ```
 
 You can also use `Else If` to check multiple rules in a row, or use `AND`/`OR` to combine rules (e.g., `If my checked is true AND user_name is not empty`).
-<img src="https://cdn.breadboards.app/assets/documentation/cookbook_4.png">
+<img src="https://cdn.breadboards.app/assets/documentation/cookbook_conditional_logic.png">
 
 ## Rendering Lists
 To display a list of items (like a shopping list or a gallery), you use the `Repeat for each` instruction.
@@ -65,7 +65,7 @@ Repeat for each item in products
   Change Result of make name to product
   Append Result of make name to me
 ```
-<img src="https://cdn.breadboards.app/assets/documentation/cookbook_6.png">
+<img src="https://cdn.breadboards.app/assets/documentation/cookbook_rendering_list.png">
 
 ## Updating the Screen (State)
 Often, you’ll want your app to "remember" information, like a counter or a user's preference. To do this, you `Create a Variable`.
@@ -80,7 +80,7 @@ Trigger: On Start
 ```
 
 Every time you click, Breadboard updates the variable and instantly changes the text on the screen.
-<img src="https://cdn.breadboards.app/assets/documentation/cookbook_7.png">
+<img src="https://cdn.breadboards.app/assets/documentation/cookbook_updating_the_screen.png">
 
 ## Sharing Data Across a Screen
 Sometimes, different parts of your app need to remember and share the exact same piece of information. In Breadboard, you make a variable **Global** to the current screen by adding a `$` sign to the front of its name.
@@ -102,3 +102,9 @@ Change count_label Text to $count
 
 
 Because you used the `$` sign, both buttons are talking to the same shared memory. If you didn't use the `$`, each button would have its own private counter that the other couldn't see. Using screen-wide variables is the easiest way to keep your UI in sync, such as updating a total price when different items are added to a list.
+
+<img src="https://cdn.breadboards.app/assets/documentation/cookbook_sharing_data_across_the_screen.png">
+
+## Next Steps
+You now know the basics of how Breadboard works! You can add elements from the dock, nest them by clicking, style them with attributes, and use logic instructions to make them think and react.
+
