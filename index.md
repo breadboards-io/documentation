@@ -1,3 +1,6 @@
+### Cookbook
+[Cookbook](/cookbook.md)
+
 ### Introducing Breadboard
 [Getting Started](/introducing_breadboard/getting_started.md)
 [Interface](/introducing_breadboard/interface.md)
